@@ -1,0 +1,1 @@
+ While loop that exits after counting 5 prime numbers
