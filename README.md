@@ -124,5 +124,7 @@ CocoaPods: https://guides.cocoapods.org
 ## Status
 
  Android Emulator tested
+ 
  iOS Simulator tested
+ 
  Video demo recorded
