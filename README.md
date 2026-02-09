@@ -121,8 +121,8 @@ React Native CLI: https://github.com/react-native-community/cli
 
 CocoaPods: https://guides.cocoapods.org
 
-✅ Status
+## Status
 
-✔ Android Emulator tested
-✔ iOS Simulator tested
-✔ Video demo recorded
+ Android Emulator tested
+ iOS Simulator tested
+ Video demo recorded
