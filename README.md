@@ -1,97 +1,128 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+## React Native Mobile Application
 
-# Getting Started
+A cross-platform mobile application built using React Native and bootstrapped with @react-native-community/cli.
+The app is developed and tested on Android Emulator and iOS Simulator, with a video demonstration included.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## Features
 
-## Step 1: Start Metro
+-Cross-platform support for Android and iOS
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+-Live development with Metro Bundler
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+-Fast Refresh for instant UI updates
 
-```sh
+-CLI-based build and run process
+
+-Native dependency management for iOS using CocoaPods
+
+-Tested on Android Emulator and iOS Simulator
+
+## Tech Stack
+
+-React Native
+
+-TypeScript
+
+-JavaScript
+
+-Metro Bundler
+
+-Android Emulator
+
+-iOS Simulator
+
+-npm / Yarn
+
+-Xcode
+
+-Android Studio
+
+-CocoaPods
+
+## Getting Started
+Prerequisites
+
+Make sure your environment is set up correctly by following the official React Native guide:
+ https://reactnative.dev/docs/environment-setup
+
+Step 1: Start Metro
+
+From the root of the project, start the Metro bundler:
+
 # Using npm
 npm start
 
 # OR using Yarn
 yarn start
-```
 
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
+Step 2: Run the Application
+Android (Emulator)
 # Using npm
 npm run android
 
 # OR using Yarn
 yarn android
-```
 
-### iOS
+### iOS (Simulator)
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+Install CocoaPods dependencies (first time or after native updates):
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
 bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
 bundle exec pod install
-```
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
 
-```sh
+Run the app:
+
 # Using npm
 npm run ios
 
 # OR using Yarn
 yarn ios
-```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+## Development
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+Main entry file: App.tsx
 
-## Step 3: Modify your app
+Changes are reflected instantly using Fast Refresh
 
-Now that you have successfully run the app, let's make changes!
+Full reload options:
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+Android: Press R twice or open Dev Menu (Ctrl + M / Cmd + M)
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+iOS: Press R in the simulator
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+## Demo Video
 
-## Congratulations! :tada:
+### Application Demo:
 
-You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+https://github.com/user-attachments/assets/783f7cd5-700f-4c9c-9ae9-348570e00c7c
 
-# Troubleshooting
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-# Learn More
+## Project Purpose
 
-To learn more about React Native, take a look at the following resources:
+This project was created to demonstrate:
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+-React Native fundamentals
+
+-Emulator & simulator-based testing
+
+-Cross-platform mobile development workflow
+
+-Real-world CLI and native tooling experience
+
+## Learn More
+
+React Native Docs: https://reactnative.dev
+
+React Native CLI: https://github.com/react-native-community/cli
+
+CocoaPods: https://guides.cocoapods.org
+
+✅ Status
+
+✔ Android Emulator tested
+✔ iOS Simulator tested
+✔ Video demo recorded
